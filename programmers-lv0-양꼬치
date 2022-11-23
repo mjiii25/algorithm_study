@@ -1,0 +1,13 @@
+## LV.0
+## 양꼬치
+
+
+def solution(n, k): 
+    n_ten = n // 10
+    if n_ten == 0 :        
+        answer = 12000 * n + 2000 * k
+    else :
+        answer = 12000 * n + 2000 * (k - n_ten)
+    return answer
+    
+    
