@@ -1,0 +1,19 @@
+## LV.0
+## 배열 뒤집기
+
+
+
+def solution(num_list):
+    answer = []
+    
+    for i in range(len(num_list)) :
+        answer.append(num_list[len(num_list)-1-i]) 
+    return answer
+
+
+
+## 다른풀이
+
+def solution(num_list):
+    return num_list[::-1]
+    
