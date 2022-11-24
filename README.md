@@ -1,9 +1,6 @@
-# programmers
 
 ![image](https://user-images.githubusercontent.com/80023660/203708906-ef2e47b2-607b-41b0-ad7f-8b7597b9089a.png)
-
-![image](https://user-images.githubusercontent.com/80023660/203710553-d3378ba3-b76f-43ed-8575-0187a0d7b7c1.png)
-
+# 
 
 
 
