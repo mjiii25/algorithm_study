@@ -21,6 +21,7 @@
 💡 **메소드**
 - 특정 문자 변경하기 : `my_string.replace(찾을문자,변경할문자)`
 - 숫자형인지 확인하기(T/F) : `my_string.isdigit()`
+- 사이사이 집어넣기 : `'*'.join('my_string')` --> `m*y*_*s*t*r*i*n*g`
 
 
 💡 **리스트**
