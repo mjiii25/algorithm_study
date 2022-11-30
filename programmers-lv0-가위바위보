@@ -1,0 +1,26 @@
+## LV.0
+## 가위 바위 보
+
+
+def solution(rsp):
+    answer = ''
+    
+    for x in rsp :
+        if x == '2' :
+            answer += '0'
+        elif x == '0' :
+            answer += '5'
+        else :
+            answer += '2'
+   
+    return answer
+
+
+
+## 다른풀이
+
+def solution(rsp):
+    d = {'0':'5','2':'0','5':'2'}
+    return ''.join(d[i] for i in rsp)
+
+
