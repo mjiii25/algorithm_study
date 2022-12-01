@@ -25,6 +25,7 @@
 - 사이사이 집어넣기 : `'*'.join('my_string')` --> `m*y*_*s*t*r*i*n*g`
   - 빈 문자열 안에 넣는 방식으로도 가능! : `.join(d[i] for i in rsp)`
 - 대소문자 : `my_string.lower()`, `my_string.upper()`, `my_string.islower()`, `my_string.isupper()`, `my_string.swapcase()`
+- 위치/인덱스 : `문자열.index(찾을문자)`
 
 
 💡 **리스트**
