@@ -24,7 +24,7 @@
 - 숫자형인지 확인하기(T/F) : `문자열.isdigit()`
 - 사이사이 집어넣기 : `'*'.join('my_string')` --> `m*y*_*s*t*r*i*n*g`
   - 빈 문자열 안에 넣는 방식으로도 가능! : `.join(d[i] for i in rsp)`
-`
+- 대소문자 : `my_string.lower()`, `my_string.upper()`, `my_string.islower()`, `my_string.isupper()`, `my_string.swapcase()`
 
 
 💡 **리스트**
