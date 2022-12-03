@@ -1,0 +1,27 @@
+## LV.0
+## 합성수 찾기
+
+
+
+
+def solution(n):
+    answer = 0
+    cnt = [1 for x in range(1, n+1)]
+    
+    for i in range(1, n+1) :
+        for j in range(1, i) :
+            if i % j == 0 :
+                cnt[i-1] += 1
+                
+    for x in cnt :
+        if x >= 3 :
+            answer += 1      
+
+    return answer
+    
+   
+## 생각해볼 점
+1~3은 3 이상의 약수를 가지지 않기 떄문에 range 범위에서 애초에 제외하면 카운드 횟수 줄일 수 있다!
+
+
+
