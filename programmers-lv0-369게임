@@ -1,0 +1,24 @@
+## LV.0
+## 369게임
+
+
+def solution(order):
+    clap = [3, 6, 9]
+    answer = 0
+    
+    for x in str(order) :
+        if int(x) in clap :
+            answer += 1
+    
+    return answer
+    
+    
+    
+
+
+## 다른 풀이
+
+def solution(order):
+    return sum(map(lambda x: str(order).count(str(x)), [3, 6, 9]))
+
+
