@@ -37,7 +37,8 @@
   - `my_string.isupper()`
   - `my_string.swapcase()`
 - 위치/인덱스
-  - `문자열.index(찾을문자)`
+  - `my_string.index(찾을문자)`
+      - my_string에서 찾을문자의 인덱스를 찾는 것
 - 특정 원소 제거하기
   1. `my_string.pop('제거할 문자의 인덱스')`
       - 중복인 값에 대해서는 하나만 제거됨
