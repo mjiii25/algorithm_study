@@ -26,6 +26,8 @@
 💡 **수학계산**
 - 조합 (a 중 b를 고르는 경우의 수)
   - `import math; math.comb(a, b)`
+- 팩토리얼
+  `from math import factorial; factorial(n)`
 
 
 
