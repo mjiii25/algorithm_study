@@ -1,0 +1,13 @@
+n = int(input())
+price = []
+for _ in range(n) :
+    price.append(int(input()))
+price.sort(reverse = True)
+
+answer = 0
+for i in range(n) :
+    answer += price[i]
+    if i % 3 == 2 :
+        answer -= price[i]
+
+print(answer)
