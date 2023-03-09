@@ -1,0 +1,14 @@
+n = int(input())
+times = []
+for _ in range(n) :
+    times.append(list(map(int, input().split())))
+times.sort()
+
+answer = 0
+for i in range(n) :
+    if times[i][0] > answer :
+        answer = times[i][0] + times[i][1]
+    else :
+        answer += times[i][1]
+
+print(answer)
