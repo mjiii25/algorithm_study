@@ -1,0 +1,14 @@
+n = int(input())
+tips = []
+for _ in range(n) :
+    tips.append(int(input()))
+# tips = [int(input()) for _ in range(n)]
+tips.sort(reverse = True)
+
+amt, answer = 0, 0
+for i in range(n) :
+    amt = tips[i] - i
+    if amt > 0 :
+        answer += amt
+
+print(answer)
