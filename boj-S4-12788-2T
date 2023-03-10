@@ -1,0 +1,31 @@
+# 내 풀이 (틀림)
+
+n = int(input())
+m, k = map(int, input().split())
+lst = sorted(list(map(int, input().split())), reverse = True)
+
+pen, cnt = 0, 0
+for x in lst :
+    pen += x
+    cnt += 1
+    if pen > m * k  :
+        print(cnt)
+        break
+if pen < m * k :
+    print('STRESS')
+    
+    
+    
+# 다른 사람 풀이 (맞음)
+
+pen, cnt = 0, 0
+for x in lst :
+    if pen < m * k :
+        pen += x
+        cnt += 1
+    else :
+        break
+if pen < m * k :
+    print('STRESS')
+else :
+    print(cnt)
