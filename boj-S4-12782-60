@@ -1,0 +1,13 @@
+# 11;30 ~ 11:50
+
+
+n = int(input())
+for _ in range(n) :
+    a, b = input().split()
+    
+    nomatch = {'0' : 0, '1' : 0}
+    for i in range(len(a)) :
+        if a[i] != b[i] :
+            nomatch[a[i]] += 1
+
+    print(min(nomatch.values()) + abs(nomatch['0'] - nomatch['1']))
